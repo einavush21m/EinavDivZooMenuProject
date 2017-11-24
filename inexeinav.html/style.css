@@ -1,0 +1,79 @@
+div{
+    border: 1px solid blue;
+    float: left; /*גורם לכל הדיבים להצמד שמאלה*/
+    box-sizing: border-box;/*לא חורג מגבולות הדיב*/
+    
+}
+#central, #footer, #header, #main {
+    width: 100%;
+    
+}
+#main {
+    
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: #b4f4b4;
+    font-size: 30px;
+    color: purple;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: #00ffff;
+}
+#header {
+    text-align: center;
+    height: 20%;
+}
+#central{
+    height: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+    
+
+#sideMenu {
+    width: 30%;
+    height: 100%;
+}
+
+#thumnailBox {
+    width: 70%;
+    height: 100%;
+}
+
+.thumnailRow {
+    width: 100%;
+    height: 50%;
+}
+
+.animalBox {
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+}
+.animalBox img{
+    height: 80%;
+}
+.animalBox img:hover{
+    box-shadow: 10px 5px black;
+}
+
+
+.sky2 {
+    background-image: url(img/underwater1.jpg);
+    color: deeppink;
+}
+
+.sidepic {
+    background-image: url(img/underwater.jpg);
+}
+
+.underpic {
+    background-image: url(img/sand2.jpg);
+}
